@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="hero">
+    <header class="hero fade-in">
         <div class="container">
             <div class="hero-content">
                 <div class="hero-text">
@@ -23,10 +23,13 @@
         </div>
     </header>
 
-    <section class="services">
+    <section class="services fade-in">
         <div class="container">
             <h2>What We Do</h2>
-            <h3>Services Provide For You</h3>
+            <div class="services-header">
+                <h3>Services Provide For You</h3>
+                <p class="services-description">Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante at elit fringilla ac at purus, Morbi sed lacus nec risus finibus feugiat et fermentum.</p>
+            </div>
             <div class="service-list">
                 <div class="service-item">
                     <img src="./images/1-2.png" alt="Service 1">
@@ -36,11 +39,16 @@
                 </div>
                 <div class="service-item service-item-highlighted">
                     <div class="service-content">
+                        <img src="./images/icon.svg" alt="Service Image" class="service-icon">
                         <h4>Web Development</h4>
                         <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh.</p>
-                        <a href="#" class="btn">Read More</a>
+                        <a href="#" class="btn">
+                            Read More
+                            <img src="./images/arrow.svg" alt="Arrow Icon" class="btn-icon">
+                        </a>
                     </div>
                 </div>
+                
                 <div class="service-item">
                     <img src="./images/3-2.png" alt="Service 3">
                 </div>
@@ -53,7 +61,7 @@
         </div>
     </section>
 
-    <section class="why-choose-us">
+    <section class="why-choose-us fade-in">
         <div class="container">
             <h2>Why Choose Us</h2>
             <h3>Why We Are Best</h3>
@@ -78,7 +86,7 @@
         </div>
     </section>
 
-    <section class="our-project">
+    <section class="our-project fade-in">
         <div class="container">
           <h2>OUR PROJECT</h2>
           <h3>WHY WE ARE BEST</h3>
@@ -105,7 +113,7 @@
       </section>
       
 
-    <section class="company-growth">
+    <section class="company-growth fade-in">
         <div class="container">
             <h2>Our Company Growth</h2>
             <div class="growth-stats">
@@ -116,7 +124,7 @@
                 </div>
                 <div class="stat-item">
                     <img src="./images/clock (3).svg" alt="">
-                    <h3>1591+</h3>
+                    <h3>1591+</</h3>
                     <p>Days Of Operation</p>
                 </div>
                 <div class="stat-item">
@@ -126,14 +134,14 @@
                 </div>
                 <div class="stat-item">
                     <img src="./images/Path 4406.svg" alt="">
-                    <h3>75+</h3>
+                    <h3>75+</</h3>
                     <p>Win Awards</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="testimonials">
+    <section class="testimonials fade-in">
         <div class="container">
             <h2>Client's Feedback</h2>
             <h3>People Say's About Us!</h3>
@@ -143,7 +151,7 @@
             </div>
         </div>
     </section>
-    <footer>
+    <footer class="fade-in">
         <img src="./images/NoPath - Copy.svg" alt="">
         <img src="images/Group 500.png" alt="">
     </footer>
